@@ -22,12 +22,16 @@ String[] songsRepertoire = {"Rock it, and Roll it","Electric boggaloo", "Hey Cod
 
             String sheetRepertoire = "Repertoire";
 
-           int sheetMusicType = musicType.length;
-int sheetRepertoireSong = songsRepertoire.length;
+            int sheetMusicType = musicType.length;
+            int sheetRepertoireSong = songsRepertoire.length;
+int songCount =
 
+/*
 = name.indekxOf
 char sheetSongNumber =
 
+
+ */
 
 
 void main() {
@@ -50,11 +54,24 @@ void main() {
 
     System.out.println(sheetRepertoire + " (" + sheetRepertoireSong + " Songs)");
 
+    System.out.println();
+    System.out.println();
+    System.out.println();
 
-for(int i=0; i<4; i++) {
-    System.out.println(sheetRepertoireSong;
-    System.out.println(musicType[(i % musicType.length)]+" = " + (songsRepertoire[(i % sheetRepertoireSong)]));
+
+for(int i=0; i<5; i++) {
+
+    System.out.println("-------------------------------");
+    System.out.println(Arrays.toString(musicType[(i%sheetMusicType)].toCharArray()));
+    System.out.println();
+    System.out.println("Song")
+
+                System.out.println(songsRepertoire[(i % sheetRepertoireSong)]);
+                     System.out.println();
+
 }}
+
+
 
 
 
